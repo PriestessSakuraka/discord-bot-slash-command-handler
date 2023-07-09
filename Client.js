@@ -36,7 +36,7 @@ class CustomClient extends Client {
 
     loadCommands() {
         modules.Utils.loadFolders("Commands", (files, dir) => files.map(file => {
-            this.SlashCommands.add(require(`./Commands/${dir}/${file}`))
+            this.SlashCommands.add(new (require(`./Commands/${dir}/${file}`)))
             console.log(`loaded ./Commands/${dir}/${file}`)
         }))
 
