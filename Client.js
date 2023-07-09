@@ -9,7 +9,7 @@ class CustomClient extends Client {
      * guildId is optional.
      * if you want to register commands as guild commands,
      * you need to add guildId
-     * @param {{ settings: Object, clientOptions: Object, clientSettings: { token: String, clientId: String, guildId: String, developerId: String }}} options - guildId is optional
+     * @param {{ settings: Object, clientOptions: Object, clientSettings: { token: String, clientId: String, guildId: String, developerId: String }}} options
      */
     constructor(options = {}) {
         super(options.clientOptions || {})
