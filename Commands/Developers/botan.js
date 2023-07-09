@@ -9,6 +9,7 @@ const {
 module.exports = class {
     constructor() {
         this.cmd = new SlashCommandBuilder().setName("botan").setDescription("This is only for developers.")
+
         this.options = {
             developer: true
         }
