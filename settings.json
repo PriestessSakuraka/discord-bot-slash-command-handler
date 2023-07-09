@@ -4,6 +4,6 @@
         "developer ids here"
     ],
     "welcome_roles": [
-        "id of the role that you want to add when user join the server."
+        "id of the role that you want to add when user join the server"
     ]
 }
